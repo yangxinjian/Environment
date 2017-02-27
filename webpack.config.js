@@ -4,8 +4,8 @@ var htmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
 	entry: './src/script/main.js',
 	output: {
-		path: "./dist",
-		filename: 'js/[name].js'
+		path: "/Users/yangxinjian/Documents/workspace/company/Environment/dist/",
+		filename: 'js/main.js'
 	},
 	module: {
 		loaders: [
@@ -16,6 +16,10 @@ module.exports = {
 			{
 				test: /\.scss$/,
 				loader: 'style-loader!css-loader!postcss-loader!sass-loader'
+			},
+			{
+				test: /\.(png|jpg|gif)$/,
+				loader: 'url-loader?limit=20192&name=[name].[ext]'
 			}
 		]
 	},
