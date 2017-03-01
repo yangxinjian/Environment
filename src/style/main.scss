@@ -1,13 +1,108 @@
 html,body{
 	padding: 0;
 	margin: 0;
-	div{
-		width: 500px;
-		height: 500px;
-		background:url('../assets/a.jpg')
+	list-style: none;
+	.container{
+		width: 91%;
+		margin: 34px auto;
+		border: 1px solid #ccc;
+		border-radius: 16px;
+		-webkit-box-shadow: 0px 0px 20px 15px #eee;
+		-moz-box-shadow: 0px 0px 20px 15px #eee;
+		box-shadow: 0px 0px 20px 15px #eee;
+		.header{
+			width: 100%;
+			height: 392px;
+			color: #fff;
+			border-radius: 16px 16px 0 0;
+			background: -webkit-linear-gradient(left, #00c6ff , #8fe4ff); /* Safari 5.1 - 6.0 */
+		    background: -o-linear-gradient(left, #00c6ff , #8fe4ff); /* Opera 11.1 - 12.0 */
+		    background: -moz-linear-gradient(left, #00c6ff , #8fe4ff); /* Firefox 3.6 - 15 */
+		    background: linear-gradient(left, #00c6ff , #8fe4ff); /* 标准的语法 */
+		    .tem_pic{
+		    	float: left;
+		    }
+		    .tem_pic img{
+		    	margin-top: 90px;
+		    	margin-left: 46px;
+		    }
+		    .word{
+		    	float: right;
+		    	margin-right: 45px;
+		    	margin-top: 99px;
+		    	text-align: right;
+		    	.school{
+			    	font-size: 40px;
+			    	font-weight: bold;
+			    }
+			    .state{
+			    	font-size: 28px;
+			    	margin-top: 8px;
+			    }
+			    .decision{
+			    	font-size: 72px;
+			    	font-weight: bold;
+			    	margin-top: 17px;
+			    }
+		    }
+		}
+		.list-grade{
+			margin-left: 70px;
+			margin-top: 40px;
+			.grade{
+				padding-left: 150px;
+				list-style: none;
+				font-size: 35px;
+				color: #717171;
+				line-height: 120px;
+				cursor: pointer;
+				img{
+					margin-right: 70px;
+					float: right;
+					margin-top: 45px;
+				}
+				.list-classes{
+					list-style: none;
+					padding: 0;
+					height: 100px;
+					.classes{
+						width: 100px;
+						height: 100%;
+						color: #9b9b9b;
+						font-size: 30px;
+						line-height: 100px;
+						margin-right: 50px;
+						float: left;
+					}
+					.color{
+						color: #4A4A4A;
+					}
+				}
+			}
+			.grade:nth-child(1){
+				background: url('../assets/grade1.png') no-repeat left top 35px;
+			}
+			.grade:nth-child(2){
+				background: url('../assets/grade2.png') no-repeat left top 35px;
+			}
+			.grade:nth-child(3){
+				background: url('../assets/grade3.png') no-repeat left top 35px;
+			}
+			.grade:nth-child(4){
+				background: url('../assets/grade4.png') no-repeat left top 35px;
+			}
+			.grade:nth-child(5){
+				background: url('../assets/grade5.png') no-repeat left top 35px;
+			}
+			.grade:nth-child(6){
+				background: url('../assets/grade6.png') no-repeat left top 35px;
+			}
+			.grade:nth-child(7){
+				background: url('../assets/aboutus.png') no-repeat left top 35px;
+			}
+		}
 	}
 }
-
-.flex-div{
-	display: flex;
+.dis{
+	display: none;
 }

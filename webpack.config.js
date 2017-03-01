@@ -20,6 +20,10 @@ module.exports = {
 			{
 				test: /\.(png|jpg|gif)$/,
 				loader: 'url-loader?limit=20192&name=[name].[ext]'
+			},
+			{
+				test: /\.json$/,
+				loader: 'json-loader'
 			}
 		]
 	},
@@ -33,7 +37,12 @@ module.exports = {
 					})
 				]
          	}
-       })
+        }),
+        new webpack.ProvidePlugin({
+        	$: 'jquery',
+        	jQuery: 'jquery',
+        	"window.jQuery": 'jquery'
+        })
     ]
 	
 }
