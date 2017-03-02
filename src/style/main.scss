@@ -102,6 +102,122 @@ html,body{
 			}
 		}
 	}
+	.head{
+		height: 120px;
+		width: 91%;
+		margin: 0 auto;
+		line-height: 110px;
+		.home{
+			float: left;
+			margin-top: 20px;
+		}
+		.grade-class{
+			float: right;
+			font-size: 40px;
+		}
+	}
+	.exhibit_area{
+		width: 91%;
+		height: 900px;
+		margin: 0 auto;
+		border-radius: 16px;
+		background: -webkit-linear-gradient(left, #58c731 , #80e312); /* Safari 5.1 - 6.0 */
+		background: -o-linear-gradient(left, #58c731 , #80e312); /* Opera 11.1 - 12.0 */
+	    background: -moz-linear-gradient(left, #58c731 , #80e312); /* Firefox 3.6 - 15 */
+	    background: linear-gradient(left, #58c731 , #80e312); /* 标准的语法 */
+	}
+	.exhibit_data{
+		width: 100%;
+		margin: 0 auto;
+		.title{
+			padding-left: 6%;
+			padding-right: 6%;
+			height: 80px;
+			margin-top: 25px;
+			font-size: 38px;
+			line-height: 80px;
+			color: #4A4A4A;
+			.examine{
+				float: left;
+			}
+			.assess{
+				float: right;
+			}
+		}
+		
+		.classify > li{
+			position: relative;
+			list-style: none;
+			font-size: 34px;
+			margin-left: 6%;
+			span:nth-child(1){
+				padding-left: 100px;
+				line-height: 110px;
+			}
+			span:nth-child(2){
+				line-height: 50px;
+			}
+			.decide-color{
+				display: inline-block;
+				margin-top: 30px;
+				width: 100px;
+				height: 50px;
+				border-radius: 8px;
+				background: #58c731;
+				position: absolute;
+				left: 600px;
+				text-align: center;
+				color: #fff;
+			}
+			img{
+				position: absolute;
+				right: 6%;
+				top: 35px;
+			}
+			.progress{
+				height: 600px;
+				background: #000;
+				padding-left: 0px;
+			}
+			.time{
+				height: 700px;
+				margin-top: -100px;
+				margin-left: -100px;
+				background: rgba(0 , 0, 0, .02);
+			}
+			.change{
+				font-weight: bold;
+				font-size: 50px;
+			}
+		}
+		.classify > li:nth-child(1){
+			background: url('../assets/tempera.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(2){
+			background: url('../assets/noisy.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(3){
+			background: url('../assets/pm.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(4){
+			background: url('../assets/many.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(5){
+			background: url('../assets/light.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(6){
+			background: url('../assets/tem.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(7){
+			background: url('../assets/many.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(8){
+			background: url('../assets/uv.png') no-repeat left top 27px;
+		}
+		.classify > li:nth-child(9){
+			background: url('../assets/many.png') no-repeat left top 27px;
+		}
+	}
 }
 .dis{
 	display: none;
