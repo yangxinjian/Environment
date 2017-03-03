@@ -2,9 +2,133 @@
 <html>
 <head>
 	<title>show</title>
-	<link rel="stylesheet" type="text/css" href="../style/show.scss">
+	<script src="https://cdn.bootcss.com/echarts/3.4.0/echarts.min.js"></script>	
 </head>
 <body>
-	<script type="text/javascript" src="../script/main.js"></script>
+	<!--begin head-->
+	<div class="head">
+		<span class="home">
+			<a href="../../index.html"><img src="../assets/home.png"></a>
+		</span>
+		<span class="grade-class">一年级一班</span>
+	</div>
+	<!--end head-->
+	<!--begin exhibit_area-->
+	<div class="exhibit_area">
+		<div id="chart"></div>
+	</div>
+	<!--end exhibit_area-->
+	<!--begin exhibit_data-->
+	<div class="exhibit_data">
+
+		<div class="title">
+			<span class="examine">检测项目</span>
+			<span class="assess">数值评定</span>
+		</div>
+
+		<ul class="classify">
+			<li class="back">	
+				<span class="words">湿度／%</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">噪音 ／ db</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">PM2.5 / ug/m3</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">甲醛 / mg/m3</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">数字光强 / Lux</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">温度 / ℃ </span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">CO2 ／ ppm</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">UV紫外线 / index</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+			<li class="back">
+				<span class="words">TOVC / mg/m3</span>
+				<span class="decide-color">优</span>
+				<img src="../assets/arrow.png">
+				<ul class="time dis">
+					<li>
+						<span class="currentNum">当前数值</span>
+						<span class="currentNumber">50</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!--begin exhibit_data-->
+	<script type="text/javascript" src="../../dist/js/main.js"></script>
 </body>
 </html>
