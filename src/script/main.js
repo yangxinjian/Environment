@@ -51,6 +51,44 @@ var option = {
 	    series: [
 	        {
 	            name: '高度(km)与气温(°C)变化关系',
+	            markPoint: {
+	            	symbol: 'pin',
+	            	symbolSize: 70,
+	            	data: [
+	            		{
+	            			type: 'max', 
+	            			name: '最大值',
+	            			itemStyle: {
+	            				normal: {
+	            					color: '#00c6ff'
+	            				}
+	            			},
+	            			label: {
+	            				normal: {
+	            					textStyle: {
+	            						fontSize: 20
+	            					}
+	            				}
+	            			}
+	            		},
+	            		{
+	            			type: 'min', 
+	            			name: '最小值',
+	            			itemStyle: {
+	            				normal: {
+	            					color: '#58c731'
+	            				}
+	            			},
+	            			label: {
+	            				normal: {
+	            					textStyle: {
+	            						fontSize: 20
+	            					}
+	            				}
+	            			}
+	            		}
+	            	]
+	            },
 	            type: 'line',
 	            smooth: true,
 	            itemStyle: {
@@ -82,9 +120,9 @@ $(function() {
 		//$('.list-classes').css('display','none');
 		$(this).find('.dis').slideToggle('middle');
 		$(this).siblings().find('.dis').slideUp('middle');
-		
-		$('.list-grade li img').css("transform","rotate(0deg)");
-		$(this).children('img').css("transform","rotate(90deg)");
+
+		$(this).children('img').toggleClass('rotate');
+		$(this).siblings().children('img').removeClass('rotate');
 
 	});
 	$('.grade').children('ul').click(function(e){
@@ -108,10 +146,12 @@ $(function() {
 
 		$(this).find('.decide-color').toggle();
 		$(this).siblings().find('.decide-color').show();
+
 		$(this).find('.words').toggleClass('change');
 		$(this).siblings().find('.words').removeClass('change');
-		$('.classify li img').css("transform","rotate(0deg)");
-		$(this).children('img').css("transform","rotate(90deg)");
+
+		$(this).children('img').toggleClass('rotate');
+		$(this).siblings().children('img').removeClass('rotate');
 	});
 
 	
@@ -192,7 +232,6 @@ $(function() {
 		            itemStyle: {
 		            	normal: {
 		            		color: '#fff'
-		            		
 		            	},
 		                emphasis: {
 		                    lineStyle: {
@@ -358,24 +397,49 @@ $(function() {
 	//end today overview echart
 		
 	//begin individual echart
-	option.series[0].data = [0 ,0,12,12,12,12,0,0,0];
+	option.series[0].data = [30 ,10,12,12,12,12,9,8];
 	var individualChart = echarts.init(document.getElementById('individual'));
-	var individualChart1 = echarts.init(document.getElementById('individual1'));
-	var individualChart2 = echarts.init(document.getElementById('individual2'));
-	var individualChart3 = echarts.init(document.getElementById('individual3'));
-	var individualChart4 = echarts.init(document.getElementById('individual4'));
-	var individualChart5 = echarts.init(document.getElementById('individual5'));
-	var individualChart6 = echarts.init(document.getElementById('individual6'));
-	var individualChart7 = echarts.init(document.getElementById('individual7'));
-	var individualChart8 = echarts.init(document.getElementById('individual8'));
 	individualChart.setOption(option);
+
+	option.series[0].data = [3 ,10,2,1,12,2,9,3];
+	var individualChart1 = echarts.init(document.getElementById('individual1'));
 	individualChart1.setOption(option);
+
+	option.series[0].data = [13 ,4,2,10,2,9,10,3];
+	var individualChart2 = echarts.init(document.getElementById('individual2'));
 	individualChart2.setOption(option);
+
+	option.series[0].data = [3,1,20,14,2,19,10,23];
+	var individualChart3 = echarts.init(document.getElementById('individual3'));
 	individualChart3.setOption(option);
+
+	option.series[0].data = [4 ,12,2,11,12,9,0,9];
+	var individualChart4 = echarts.init(document.getElementById('individual4'));
 	individualChart4.setOption(option);
+
+	option.series[0].data = [7 ,13,2,13,12,5,0,3];
+	var individualChart5 = echarts.init(document.getElementById('individual5'));
 	individualChart5.setOption(option);
+
+	option.series[0].data = [9 ,20,1,12,2,9,7,13];
+	var individualChart6 = echarts.init(document.getElementById('individual6'));
 	individualChart6.setOption(option);
+
+	option.series[0].data = [8,9,2,1,4,9,20,3];
+	var individualChart7 = echarts.init(document.getElementById('individual7'));
 	individualChart7.setOption(option);
+
+	option.series[0].data = [12 ,6,2,1,15,2,9,3];
+	var individualChart8 = echarts.init(document.getElementById('individual8'));
 	individualChart8.setOption(option);
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//end induvidual echart
 })

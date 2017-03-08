@@ -38423,7 +38423,7 @@ exports = module.exports = __webpack_require__(140)();
 
 
 // module
-exports.push([module.i, "@charset \"UTF-8\";\nhtml, body {\n  padding: 0;\n  margin: 0;\n  list-style: none; }\n  html .container, body .container {\n    width: 91%;\n    margin: 34px auto;\n    border: 1px solid #ccc;\n    border-radius: 16px;\n    box-shadow: 0px 0px 20px 15px #eee; }\n    html .container .header, body .container .header {\n      width: 100%;\n      height: 392px;\n      color: #fff;\n      border-radius: 16px 16px 0 0;\n      background: -webkit-linear-gradient(left, #00c6ff, #8fe4ff);\n      /* Safari 5.1 - 6.0 */\n      /* Opera 11.1 - 12.0 */\n      /* Firefox 3.6 - 15 */\n      background: linear-gradient(left, #00c6ff, #8fe4ff);\n      /* 标准的语法 */ }\n      html .container .header .tem_pic, body .container .header .tem_pic {\n        float: left; }\n      html .container .header .tem_pic img, body .container .header .tem_pic img {\n        margin-top: 90px;\n        margin-left: 46px; }\n      html .container .header .word, body .container .header .word {\n        float: right;\n        margin-right: 45px;\n        margin-top: 99px;\n        text-align: right; }\n        html .container .header .word .school, body .container .header .word .school {\n          font-size: 40px;\n          font-weight: bold; }\n        html .container .header .word .state, body .container .header .word .state {\n          font-size: 28px;\n          margin-top: 8px; }\n        html .container .header .word .decision, body .container .header .word .decision {\n          font-size: 72px;\n          font-weight: bold;\n          margin-top: 17px; }\n    html .container .list-grade, body .container .list-grade {\n      margin-left: 70px;\n      margin-top: 40px; }\n      html .container .list-grade .grade, body .container .list-grade .grade {\n        padding-left: 150px;\n        list-style: none;\n        font-size: 35px;\n        color: #717171;\n        line-height: 120px;\n        cursor: pointer; }\n        html .container .list-grade .grade img, body .container .list-grade .grade img {\n          margin-right: 70px;\n          float: right;\n          margin-top: 45px; }\n        html .container .list-grade .grade .list-classes, body .container .list-grade .grade .list-classes {\n          list-style: none;\n          padding: 0;\n          height: 100px; }\n          html .container .list-grade .grade .list-classes .classes, body .container .list-grade .grade .list-classes .classes {\n            width: 100px;\n            height: 100%;\n            color: #9b9b9b;\n            font-size: 30px;\n            line-height: 100px;\n            margin-right: 50px;\n            float: left; }\n          html .container .list-grade .grade .list-classes .color, body .container .list-grade .grade .list-classes .color {\n            color: #4A4A4A; }\n      html .container .list-grade .grade:nth-child(1), body .container .list-grade .grade:nth-child(1) {\n        background: url(" + __webpack_require__(370) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(2), body .container .list-grade .grade:nth-child(2) {\n        background: url(" + __webpack_require__(371) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(3), body .container .list-grade .grade:nth-child(3) {\n        background: url(" + __webpack_require__(372) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(4), body .container .list-grade .grade:nth-child(4) {\n        background: url(" + __webpack_require__(373) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(5), body .container .list-grade .grade:nth-child(5) {\n        background: url(" + __webpack_require__(374) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(6), body .container .list-grade .grade:nth-child(6) {\n        background: url(" + __webpack_require__(375) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(7), body .container .list-grade .grade:nth-child(7) {\n        background: url(" + __webpack_require__(369) + ") no-repeat left top 35px; }\n  html .head, body .head {\n    height: 120px;\n    width: 91%;\n    margin: 0 auto;\n    line-height: 110px; }\n    html .head .home, body .head .home {\n      float: left;\n      margin-top: 20px; }\n    html .head .grade-class, body .head .grade-class {\n      float: right;\n      font-size: 40px; }\n  html .exhibit_area, body .exhibit_area {\n    width: 91%;\n    height: 900px;\n    margin: 0 auto;\n    border-radius: 16px;\n    background: -webkit-linear-gradient(left, #58c731, #80e312);\n    /* Safari 5.1 - 6.0 */\n    /* Opera 11.1 - 12.0 */\n    /* Firefox 3.6 - 15 */\n    background: linear-gradient(left, #58c731, #80e312);\n    /* 标准的语法 */ }\n    html .exhibit_area #chart, body .exhibit_area #chart {\n      width: 100%;\n      height: 750px;\n      margin: 0 auto;\n      display: block; }\n    html .exhibit_area .jadgement, body .exhibit_area .jadgement {\n      font-size: 75px;\n      color: #fff;\n      margin-left: 20px; }\n    html .exhibit_area .local_city, body .exhibit_area .local_city {\n      font-size: 28px;\n      color: #fff;\n      margin-left: 20px; }\n  html .exhibit_data, body .exhibit_data {\n    width: 100%;\n    margin: 0 auto; }\n    html .exhibit_data .title, body .exhibit_data .title {\n      padding-left: 6%;\n      padding-right: 6%;\n      height: 80px;\n      margin-top: 25px;\n      font-size: 38px;\n      line-height: 80px;\n      color: #4A4A4A; }\n      html .exhibit_data .title .examine, body .exhibit_data .title .examine {\n        float: left; }\n      html .exhibit_data .title .assess, body .exhibit_data .title .assess {\n        float: right; }\n    html .exhibit_data .classify > li, body .exhibit_data .classify > li {\n      position: relative;\n      list-style: none;\n      font-size: 34px;\n      margin-left: 6%; }\n      html .exhibit_data .classify > li span:nth-child(1), body .exhibit_data .classify > li span:nth-child(1) {\n        padding-left: 100px;\n        line-height: 110px; }\n      html .exhibit_data .classify > li span:nth-child(2), body .exhibit_data .classify > li span:nth-child(2) {\n        line-height: 50px; }\n      html .exhibit_data .classify > li .decide-color, body .exhibit_data .classify > li .decide-color {\n        display: inline-block;\n        margin-top: 30px;\n        width: 100px;\n        height: 50px;\n        border-radius: 8px;\n        background: #58c731;\n        position: absolute;\n        left: 78%;\n        text-align: center;\n        color: #fff; }\n      html .exhibit_data .classify > li img, body .exhibit_data .classify > li img {\n        position: absolute;\n        right: 6%;\n        top: 35px; }\n      html .exhibit_data .classify > li .progress, body .exhibit_data .classify > li .progress {\n        height: 600px;\n        background: #000;\n        padding-left: 0px; }\n      html .exhibit_data .classify > li .time, body .exhibit_data .classify > li .time {\n        height: 700px;\n        margin-top: -100px;\n        margin-left: -100px;\n        background: rgba(0, 0, 0, 0.02); }\n        html .exhibit_data .classify > li .time li, body .exhibit_data .classify > li .time li {\n          list-style: none; }\n          html .exhibit_data .classify > li .time li .currentNum, body .exhibit_data .classify > li .time li .currentNum {\n            margin-left: 50%;\n            font-size: 40px;\n            color: #4A4A4A; }\n          html .exhibit_data .classify > li .time li .currentNumber, body .exhibit_data .classify > li .time li .currentNumber {\n            font-weight: bold;\n            font-size: 50px;\n            color: #4A4A4A; }\n        html .exhibit_data .classify > li .time .individual, body .exhibit_data .classify > li .time .individual {\n          width: 700px;\n          height: 500px;\n          margin: 0 auto; }\n      html .exhibit_data .classify > li .change, body .exhibit_data .classify > li .change {\n        font-weight: bold;\n        font-size: 50px; }\n    html .exhibit_data .classify > li:nth-child(1), body .exhibit_data .classify > li:nth-child(1) {\n      background: url(" + __webpack_require__(380) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(2), body .exhibit_data .classify > li:nth-child(2) {\n      background: url(" + __webpack_require__(377) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(3), body .exhibit_data .classify > li:nth-child(3) {\n      background: url(" + __webpack_require__(378) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(4), body .exhibit_data .classify > li:nth-child(4) {\n      background: url(" + __webpack_require__(72) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(5), body .exhibit_data .classify > li:nth-child(5) {\n      background: url(" + __webpack_require__(376) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(6), body .exhibit_data .classify > li:nth-child(6) {\n      background: url(" + __webpack_require__(379) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(7), body .exhibit_data .classify > li:nth-child(7) {\n      background: url(" + __webpack_require__(72) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(8), body .exhibit_data .classify > li:nth-child(8) {\n      background: url(" + __webpack_require__(381) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(9), body .exhibit_data .classify > li:nth-child(9) {\n      background: url(" + __webpack_require__(72) + ") no-repeat left top 27px; }\n\n.dis {\n  display: none; }\n\n.legend {\n  font-family: 'Raleway', sans-serif;\n  fill: #333333; }\n\n.tooltip {\n  fill: #333333; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\nhtml, body {\n  padding: 0;\n  margin: 0;\n  list-style: none; }\n  html .container, body .container {\n    width: 91%;\n    margin: 34px auto;\n    border: 1px solid #ccc;\n    border-radius: 16px;\n    box-shadow: 0px 0px 20px 15px #eee; }\n    html .container .header, body .container .header {\n      width: 100%;\n      height: 392px;\n      color: #fff;\n      border-radius: 16px 16px 0 0;\n      background: -webkit-linear-gradient(left, #00c6ff, #8fe4ff);\n      /* Safari 5.1 - 6.0 */\n      /* Opera 11.1 - 12.0 */\n      /* Firefox 3.6 - 15 */\n      background: linear-gradient(left, #00c6ff, #8fe4ff);\n      /* 标准的语法 */ }\n      html .container .header .tem_pic, body .container .header .tem_pic {\n        float: left; }\n      html .container .header .tem_pic img, body .container .header .tem_pic img {\n        margin-top: 90px;\n        margin-left: 46px; }\n      html .container .header .word, body .container .header .word {\n        float: right;\n        margin-right: 45px;\n        margin-top: 99px;\n        text-align: right; }\n        html .container .header .word .school, body .container .header .word .school {\n          font-size: 40px;\n          font-weight: bold; }\n        html .container .header .word .state, body .container .header .word .state {\n          font-size: 28px;\n          margin-top: 8px; }\n        html .container .header .word .decision, body .container .header .word .decision {\n          font-size: 72px;\n          font-weight: bold;\n          margin-top: 17px; }\n    html .container .list-grade, body .container .list-grade {\n      margin-left: 70px;\n      margin-top: 40px; }\n      html .container .list-grade .grade, body .container .list-grade .grade {\n        padding-left: 150px;\n        list-style: none;\n        font-size: 35px;\n        color: #717171;\n        line-height: 120px;\n        cursor: pointer; }\n        html .container .list-grade .grade img, body .container .list-grade .grade img {\n          margin-right: 70px;\n          float: right;\n          margin-top: 45px; }\n        html .container .list-grade .grade .rotate, body .container .list-grade .grade .rotate {\n          -webkit-transform: rotate(90deg);\n                  transform: rotate(90deg); }\n        html .container .list-grade .grade .list-classes, body .container .list-grade .grade .list-classes {\n          list-style: none;\n          padding: 0;\n          height: 100px; }\n          html .container .list-grade .grade .list-classes .classes, body .container .list-grade .grade .list-classes .classes {\n            width: 100px;\n            height: 100%;\n            color: #9b9b9b;\n            font-size: 30px;\n            line-height: 100px;\n            margin-right: 50px;\n            float: left; }\n          html .container .list-grade .grade .list-classes .color, body .container .list-grade .grade .list-classes .color {\n            color: #4A4A4A; }\n      html .container .list-grade .grade:nth-child(1), body .container .list-grade .grade:nth-child(1) {\n        background: url(" + __webpack_require__(370) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(2), body .container .list-grade .grade:nth-child(2) {\n        background: url(" + __webpack_require__(371) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(3), body .container .list-grade .grade:nth-child(3) {\n        background: url(" + __webpack_require__(372) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(4), body .container .list-grade .grade:nth-child(4) {\n        background: url(" + __webpack_require__(373) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(5), body .container .list-grade .grade:nth-child(5) {\n        background: url(" + __webpack_require__(374) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(6), body .container .list-grade .grade:nth-child(6) {\n        background: url(" + __webpack_require__(375) + ") no-repeat left top 35px; }\n      html .container .list-grade .grade:nth-child(7), body .container .list-grade .grade:nth-child(7) {\n        background: url(" + __webpack_require__(369) + ") no-repeat left top 35px; }\n  html .head, body .head {\n    height: 120px;\n    width: 91%;\n    margin: 0 auto;\n    line-height: 110px; }\n    html .head .home, body .head .home {\n      float: left;\n      margin-top: 20px; }\n    html .head .grade-class, body .head .grade-class {\n      float: right;\n      font-size: 40px; }\n  html .exhibit_area, body .exhibit_area {\n    width: 91%;\n    height: 900px;\n    margin: 0 auto;\n    border-radius: 16px;\n    background: -webkit-linear-gradient(left, #58c731, #80e312);\n    /* Safari 5.1 - 6.0 */\n    /* Opera 11.1 - 12.0 */\n    /* Firefox 3.6 - 15 */\n    background: linear-gradient(left, #58c731, #80e312);\n    /* 标准的语法 */ }\n    html .exhibit_area #chart, body .exhibit_area #chart {\n      width: 100%;\n      height: 750px;\n      margin: 0 auto;\n      display: block; }\n    html .exhibit_area .jadgement, body .exhibit_area .jadgement {\n      font-size: 75px;\n      color: #fff;\n      margin-left: 20px; }\n    html .exhibit_area .local_city, body .exhibit_area .local_city {\n      font-size: 28px;\n      color: #fff;\n      margin-left: 20px; }\n  html .exhibit_data, body .exhibit_data {\n    width: 100%;\n    margin: 0 auto; }\n    html .exhibit_data .title, body .exhibit_data .title {\n      padding-left: 6%;\n      padding-right: 6%;\n      height: 80px;\n      margin-top: 25px;\n      font-size: 38px;\n      line-height: 80px;\n      color: #4A4A4A; }\n      html .exhibit_data .title .examine, body .exhibit_data .title .examine {\n        float: left; }\n      html .exhibit_data .title .assess, body .exhibit_data .title .assess {\n        float: right; }\n    html .exhibit_data .classify > li, body .exhibit_data .classify > li {\n      position: relative;\n      list-style: none;\n      font-size: 34px;\n      margin-left: 6%; }\n      html .exhibit_data .classify > li span:nth-child(1), body .exhibit_data .classify > li span:nth-child(1) {\n        padding-left: 100px;\n        line-height: 110px; }\n      html .exhibit_data .classify > li span:nth-child(2), body .exhibit_data .classify > li span:nth-child(2) {\n        line-height: 50px; }\n      html .exhibit_data .classify > li .decide-color, body .exhibit_data .classify > li .decide-color {\n        display: inline-block;\n        margin-top: 30px;\n        width: 100px;\n        height: 50px;\n        border-radius: 8px;\n        background: #58c731;\n        position: absolute;\n        left: 78%;\n        text-align: center;\n        color: #fff; }\n      html .exhibit_data .classify > li img, body .exhibit_data .classify > li img {\n        position: absolute;\n        right: 6%;\n        top: 35px; }\n      html .exhibit_data .classify > li .rotate, body .exhibit_data .classify > li .rotate {\n        -webkit-transform: rotate(90deg);\n                transform: rotate(90deg); }\n      html .exhibit_data .classify > li .progress, body .exhibit_data .classify > li .progress {\n        height: 600px;\n        background: #000;\n        padding-left: 0px; }\n      html .exhibit_data .classify > li .time, body .exhibit_data .classify > li .time {\n        height: 700px;\n        margin-top: -100px;\n        margin-left: -100px;\n        background: rgba(0, 0, 0, 0.02); }\n        html .exhibit_data .classify > li .time li, body .exhibit_data .classify > li .time li {\n          list-style: none; }\n          html .exhibit_data .classify > li .time li .currentNum, body .exhibit_data .classify > li .time li .currentNum {\n            margin-left: 50%;\n            font-size: 40px;\n            color: #4A4A4A; }\n          html .exhibit_data .classify > li .time li .currentNumber, body .exhibit_data .classify > li .time li .currentNumber {\n            font-weight: bold;\n            font-size: 50px;\n            color: #4A4A4A; }\n        html .exhibit_data .classify > li .time .individual, body .exhibit_data .classify > li .time .individual {\n          width: 700px;\n          height: 500px;\n          margin: 0 auto; }\n        html .exhibit_data .classify > li .time .verdict, body .exhibit_data .classify > li .time .verdict {\n          color: #4A4A4A;\n          font-size: 35px;\n          margin: 20px 0px 0px 80px; }\n      html .exhibit_data .classify > li .change, body .exhibit_data .classify > li .change {\n        font-weight: bold;\n        font-size: 50px; }\n    html .exhibit_data .classify > li:nth-child(1), body .exhibit_data .classify > li:nth-child(1) {\n      background: url(" + __webpack_require__(380) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(2), body .exhibit_data .classify > li:nth-child(2) {\n      background: url(" + __webpack_require__(377) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(3), body .exhibit_data .classify > li:nth-child(3) {\n      background: url(" + __webpack_require__(378) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(4), body .exhibit_data .classify > li:nth-child(4) {\n      background: url(" + __webpack_require__(72) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(5), body .exhibit_data .classify > li:nth-child(5) {\n      background: url(" + __webpack_require__(376) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(6), body .exhibit_data .classify > li:nth-child(6) {\n      background: url(" + __webpack_require__(379) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(7), body .exhibit_data .classify > li:nth-child(7) {\n      background: url(" + __webpack_require__(72) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(8), body .exhibit_data .classify > li:nth-child(8) {\n      background: url(" + __webpack_require__(381) + ") no-repeat left top 27px; }\n    html .exhibit_data .classify > li:nth-child(9), body .exhibit_data .classify > li:nth-child(9) {\n      background: url(" + __webpack_require__(72) + ") no-repeat left top 27px; }\n\n.dis {\n  display: none; }\n\n.legend {\n  font-family: 'Raleway', sans-serif;\n  fill: #333333; }\n\n.tooltip {\n  fill: #333333; }\n", ""]);
 
 // exports
 
@@ -78984,6 +78984,44 @@ var option = {
 	    series: [
 	        {
 	            name: '高度(km)与气温(°C)变化关系',
+	            markPoint: {
+	            	symbol: 'pin',
+	            	symbolSize: 70,
+	            	data: [
+	            		{
+	            			type: 'max', 
+	            			name: '最大值',
+	            			itemStyle: {
+	            				normal: {
+	            					color: '#00c6ff'
+	            				}
+	            			},
+	            			label: {
+	            				normal: {
+	            					textStyle: {
+	            						fontSize: 20
+	            					}
+	            				}
+	            			}
+	            		},
+	            		{
+	            			type: 'min', 
+	            			name: '最小值',
+	            			itemStyle: {
+	            				normal: {
+	            					color: '#58c731'
+	            				}
+	            			},
+	            			label: {
+	            				normal: {
+	            					textStyle: {
+	            						fontSize: 20
+	            					}
+	            				}
+	            			}
+	            		}
+	            	]
+	            },
 	            type: 'line',
 	            smooth: true,
 	            itemStyle: {
@@ -79015,9 +79053,9 @@ __WEBPACK_IMPORTED_MODULE_1_jquery___default()(function() {
 		//$('.list-classes').css('display','none');
 		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).find('.dis').slideToggle('middle');
 		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).siblings().find('.dis').slideUp('middle');
-		
-		__WEBPACK_IMPORTED_MODULE_1_jquery___default()('.list-grade li img').css("transform","rotate(0deg)");
-		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).children('img').css("transform","rotate(90deg)");
+
+		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).children('img').toggleClass('rotate');
+		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).siblings().children('img').removeClass('rotate');
 
 	});
 	__WEBPACK_IMPORTED_MODULE_1_jquery___default()('.grade').children('ul').click(function(e){
@@ -79041,10 +79079,12 @@ __WEBPACK_IMPORTED_MODULE_1_jquery___default()(function() {
 
 		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).find('.decide-color').toggle();
 		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).siblings().find('.decide-color').show();
+
 		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).find('.words').toggleClass('change');
 		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).siblings().find('.words').removeClass('change');
-		__WEBPACK_IMPORTED_MODULE_1_jquery___default()('.classify li img').css("transform","rotate(0deg)");
-		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).children('img').css("transform","rotate(90deg)");
+
+		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).children('img').toggleClass('rotate');
+		__WEBPACK_IMPORTED_MODULE_1_jquery___default()(this).siblings().children('img').removeClass('rotate');
 	});
 
 	
@@ -79125,7 +79165,6 @@ __WEBPACK_IMPORTED_MODULE_1_jquery___default()(function() {
 		            itemStyle: {
 		            	normal: {
 		            		color: '#fff'
-		            		
 		            	},
 		                emphasis: {
 		                    lineStyle: {
@@ -79291,25 +79330,50 @@ __WEBPACK_IMPORTED_MODULE_1_jquery___default()(function() {
 	//end today overview echart
 		
 	//begin individual echart
-	option.series[0].data = [0 ,0,12,12,12,12,0,0,0];
+	option.series[0].data = [30 ,10,12,12,12,12,9,8];
 	var individualChart = echarts.init(document.getElementById('individual'));
-	var individualChart1 = echarts.init(document.getElementById('individual1'));
-	var individualChart2 = echarts.init(document.getElementById('individual2'));
-	var individualChart3 = echarts.init(document.getElementById('individual3'));
-	var individualChart4 = echarts.init(document.getElementById('individual4'));
-	var individualChart5 = echarts.init(document.getElementById('individual5'));
-	var individualChart6 = echarts.init(document.getElementById('individual6'));
-	var individualChart7 = echarts.init(document.getElementById('individual7'));
-	var individualChart8 = echarts.init(document.getElementById('individual8'));
 	individualChart.setOption(option);
+
+	option.series[0].data = [3 ,10,2,1,12,2,9,3];
+	var individualChart1 = echarts.init(document.getElementById('individual1'));
 	individualChart1.setOption(option);
+
+	option.series[0].data = [13 ,4,2,10,2,9,10,3];
+	var individualChart2 = echarts.init(document.getElementById('individual2'));
 	individualChart2.setOption(option);
+
+	option.series[0].data = [3,1,20,14,2,19,10,23];
+	var individualChart3 = echarts.init(document.getElementById('individual3'));
 	individualChart3.setOption(option);
+
+	option.series[0].data = [4 ,12,2,11,12,9,0,9];
+	var individualChart4 = echarts.init(document.getElementById('individual4'));
 	individualChart4.setOption(option);
+
+	option.series[0].data = [7 ,13,2,13,12,5,0,3];
+	var individualChart5 = echarts.init(document.getElementById('individual5'));
 	individualChart5.setOption(option);
+
+	option.series[0].data = [9 ,20,1,12,2,9,7,13];
+	var individualChart6 = echarts.init(document.getElementById('individual6'));
 	individualChart6.setOption(option);
+
+	option.series[0].data = [8,9,2,1,4,9,20,3];
+	var individualChart7 = echarts.init(document.getElementById('individual7'));
 	individualChart7.setOption(option);
+
+	option.series[0].data = [12 ,6,2,1,15,2,9,3];
+	var individualChart8 = echarts.init(document.getElementById('individual8'));
 	individualChart8.setOption(option);
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	//end induvidual echart
 })
 
