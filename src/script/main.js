@@ -1,6 +1,7 @@
 import '../style/main.scss';
 import $ from 'jquery';
 import json from '../data.json';
+var Cookies = require('js-cookie');
 var echarts = require('echarts');
 var option = {
 		grid: {
@@ -101,8 +102,9 @@ var option = {
 	                    width: 10,
 	                    color: '#979797',
 	                    shadowColor: 'rgba(0,0,0,0.4)',
-	                    shadowBlur: 20,
-	                    shadowOffsetY: 15
+	                    shadowBlur: 100,
+	                    shadowOffsetY: 55,
+	                    shadowOffsetX: 45
 	                }
 	            },
 	            data:[]
@@ -110,7 +112,8 @@ var option = {
 	    ]
 };
 
-
+var currentGrade = '';
+var currentClass = '';
 $(function() {
 
 	//begin index.html li toggle
@@ -124,6 +127,8 @@ $(function() {
 		$(this).children('img').toggleClass('rotate');
 		$(this).siblings().children('img').removeClass('rotate');
 
+		currentGrade = $(this).children('span').html();
+		localStorage.setItem("grade",currentGrade);
 	});
 	$('.grade').children('ul').click(function(e){
 	    e.stopPropagation();
@@ -134,9 +139,19 @@ $(function() {
 	var url = 'src/html/show.html'
 	$('.list-classes li').click(function(){
 		location.href = url;
+
+		currentClass = $(this).html();
+		//$('.grade-class').html(currentClass);
+		//alert($('.grade-class').html());
+		localStorage.setItem("class",currentClass);
 	});
 	//end href
 
+
+	//cookie
+
+
+	$('.grade-class').html(localStorage.getItem("grade") + localStorage.getItem("class"));
 	//begin show.html check-project
 	$('.classify > li').click(function(){
 	
@@ -432,14 +447,6 @@ $(function() {
 	option.series[0].data = [12 ,6,2,1,15,2,9,3];
 	var individualChart8 = echarts.init(document.getElementById('individual8'));
 	individualChart8.setOption(option);
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	//end induvidual echart
 })
